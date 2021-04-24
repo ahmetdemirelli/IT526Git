@@ -27,7 +27,7 @@ public class UserService {
 				 .getResultList();	
 		if (users.size()==1)
 		{
-			System.out.println("User password ( from DB ) hashed --> "+password);
+			System.out.println("User password (from DB) hashed --> "+password);
 			return users.get(0);
 		}
 		return null;
