@@ -38,7 +38,7 @@ public class User
 		this.id = id;
 	}
 	public String getName() {
-		return name;
+		return name + "EfeKalay";
 	}
 	public void setName(String name) {
 		this.name = name;
