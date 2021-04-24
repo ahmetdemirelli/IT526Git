@@ -20,7 +20,7 @@ public class UserService {
 		
 		password = IT526Utillty.hash(password);
 		System.out.println("User Input password (from textbox) hashed --> "+password);
-		
+		System.out.println("Ahmet Demirelli");
 		 List<User> users = entityManager.createQuery("select u from User u where u.username=?1 and u.password=?2",User.class)
 				 .setParameter(1, username)
 				 .setParameter(2, password)
