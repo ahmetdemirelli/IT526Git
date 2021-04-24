@@ -27,7 +27,7 @@ public class SecureFolderFilter implements Filter {
 	private LoginBean loginBean;
    
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-		System.out.println("Birileri secure foldera ulaşmaya çalışıyor");
+		//System.out.println("Birileri secure foldera ulaşmaya çalışıyor");
 	
 		HttpServletResponse res = (HttpServletResponse)response;
 		HttpServletRequest req = (HttpServletRequest)request;		

@@ -28,7 +28,6 @@ public class UserService {
 		if (users.size()==1)
 		{
 			System.out.println("User password ( from DB ) hashed --> "+password);
-			System.out.println("User Exists");
 			return users.get(0);
 		}
 		return null;

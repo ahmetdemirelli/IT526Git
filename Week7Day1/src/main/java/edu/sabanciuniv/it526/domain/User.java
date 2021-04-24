@@ -19,7 +19,7 @@ public class User
 	private String lastName;
 	private String username;
 	private String password;
-	private String role;
+
 	
 	public User(String name, String lastName, String username, String password) {
 		super();
@@ -61,8 +61,5 @@ public class User
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	
-	
 	
 }
